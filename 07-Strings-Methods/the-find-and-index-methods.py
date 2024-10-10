@@ -11,5 +11,4 @@ print(browser.find("o", 2))
 
 print(browser.index("C"))
 print(browser.index("Z"))
-
 # find finds the first index where substring occurs, rfind finds last index where substring occurs
