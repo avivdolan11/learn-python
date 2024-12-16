@@ -7,3 +7,14 @@ print("".join(address))
 phone_number = ["555", "22", "4335", "52"]
 
 print("-".join(phone_number))
+
+def word_lengths(sentence):
+    words = sentence.split(" ")
+    lengths = []
+    for word in words:
+        lengths.append(len(word))
+    return lengths
+
+
+def cleanup(lists):
+    
