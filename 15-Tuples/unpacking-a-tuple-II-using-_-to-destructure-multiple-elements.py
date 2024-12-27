@@ -15,3 +15,11 @@ first_name, *details, age = employee
 print(first_name)
 print(details)
 print(age)
+
+
+job_opening = ("Software Engineer", "New York City", 100000)
+
+position, city, salary = job_opening
+print(position)
+print(city)
+print(salary)
