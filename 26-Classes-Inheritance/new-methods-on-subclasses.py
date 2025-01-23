@@ -20,3 +20,4 @@ m.do_work()
 
 d.do_work()
 d.fire_employee()
+d.waste_time()
