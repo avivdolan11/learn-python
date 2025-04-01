@@ -1,6 +1,6 @@
 class SmartPhone():
     def __init__(self):
-        self._company = "apple"
+        self._company = "Apple"
         self._firmware = 10.0
     
     def get_os_version(self):

@@ -20,7 +20,6 @@ class Lawyer():
         self.name = name
         self.briefcase = briefcase
 
-    
     def write_note(self, text, case):
         paper = Paper(text, case)
         self.briefcase.add_paper(paper)

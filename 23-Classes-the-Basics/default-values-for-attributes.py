@@ -9,3 +9,10 @@ gatsby = Book("The Great Gatsby", "Scott F")
 
 print(animal_farm.price)
 print(gatsby.price)
+
+
+
+class Zombie():
+    def __init__(self, health = 100, brains_eaten=5):
+        self.health = health
+        self.brains_eaten = brains_eaten

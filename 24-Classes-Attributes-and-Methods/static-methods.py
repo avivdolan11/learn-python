@@ -4,7 +4,7 @@ class WeatherForecast():
 
     @staticmethod
     def convert_from_far_to_cels(fahr):
-        calculation = ((5/9) * (fahr -32))
+        calculation = ((5/9) * (fahr - 32))
         return round(calculation, 1)
 
     def in_celsius(self):
