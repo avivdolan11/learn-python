@@ -21,3 +21,19 @@ print(three_item_list.pop())
 
 mock = Mock(side_effect= NameError("Some error"))
 mock()
+
+
+### Exercise
+
+from unittest.mock import Mock
+
+airport = Mock()
+
+airport.gates = ["A1", "B2", "C3"]
+airport.departures = {
+      "Atlanta": "12:00PM",
+      "Nashville": "04:30PM"
+}
+
+airport.close.return_value = "Closing"
+airport.open.side_effect = ["Opening", "Already open"]

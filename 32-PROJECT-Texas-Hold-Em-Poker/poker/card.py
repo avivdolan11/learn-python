@@ -29,6 +29,7 @@ class Card():
         
         self.rank = rank
         self.suit = suit
+        self.rank_index = self.RANKS.index(rank)
     
     def __str__(self):
         return f"{self.rank} of {self.suit}"
@@ -38,3 +39,6 @@ class Card():
     
     def __eq__(self, value):
         return self.rank == value.rank and self.suit == value.suit
+    
+    def __lt__(self, other_card):
+        return self.rank_index < other_card.rank_index

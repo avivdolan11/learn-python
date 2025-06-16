@@ -12,7 +12,6 @@ class MockCallsTest(unittest.TestCase):
         # mock()
         mock.assert_not_called()
 
-
     def test_called_with(self):
         mock = MagicMock()
         mock(1,2,3)
